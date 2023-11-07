@@ -18,3 +18,45 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header, header a, footer, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+   HEADER
+*/
+header {
+    background-color: rgb(255, 98, 0);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header a {
+    font-weight: bold;
+
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header img {
+    height: 40px;
+}
+/*
+   MAIN
+*/
+
+/*
+   FOOTER
+*/
+footer {
+    background-color: rgb(30, 30, 30);
+}
