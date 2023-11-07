@@ -15,13 +15,35 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 header, header a, footer, footer a {
     color: white;
     text-decoration: none;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-col-1-3 {
+    width: calc((100% / 3) - 10px);
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+
+    background-color: skyblue;
+    border: 5px dashed blue;
 }
 
 /*
